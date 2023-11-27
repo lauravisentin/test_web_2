@@ -1,0 +1,110 @@
+/*Typo*/
+@font-face {
+    font-family: "glacial", sans-serif;
+    src: url("GlacialIndifference-Regular.otf");
+}
+
+/* Remise à 0*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+    background-image: url("./images/pexels-tuesday-temptation-3780104.jpg");
+}
+
+/*Tableau*/
+table{ 
+    background-color: white;
+    font-family: "glacial";
+    border-collapse: collapse;
+    width: 70vw;
+    height:600px;
+    margin: 0 auto;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+
+/*Head du tableau*/
+caption{
+    background-color: purple;
+    color:white;
+    padding:3vh;
+    
+}
+
+h3{
+    font-family: sans-serif;
+}
+/*Body du tableau*/
+tbody td{
+    border: 1px solid black;
+}
+
+.jours, tbody td{
+    width: 18%;
+}
+
+tbody th{
+    color:white;
+    border: 1px solid black;
+}
+
+tbody td{
+    font-weight: bolder;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+.heure{
+    width: 10%;
+    background-color: darkcyan;
+}
+
+.jours{
+    background-color: darkblue;
+}
+
+/*Couleurs dégardés*/
+.web{
+    background: rgb(208,118,225);
+    background: radial-gradient(circle, rgba(208,118,225,1) 0%, rgba(231,180,195,1) 49%, rgba(173,130,234,1) 100%);
+}
+
+.conception{
+    background: rgb(236,104,131);
+    background: radial-gradient(circle, rgba(236,104,131,1) 0%, rgba(228,70,252,1) 100%);
+}
+
+.video{
+    background: rgb(108,228,178);
+    background: linear-gradient(90deg, rgba(108,228,178,1) 0%, rgba(9,98,37,1) 100%);
+}
+
+.animation{
+    background: rgb(104,236,219);
+    background: radial-gradient(circle, rgba(104,236,219,1) 0%, rgba(97,70,252,1) 100%);
+}
+
+.anglais{
+    background: rgb(0,255,135);
+    background: linear-gradient(126deg, rgba(0,255,135,1) 0%, rgba(252,255,123,1) 45%, rgba(10,255,0,1) 100%);
+}
+
+/*Footer du tableau*/
+tfoot td{
+    padding: 0.5vw;
+    background-color: purple;
+    color:white;
+}
+
+
+
+
+
